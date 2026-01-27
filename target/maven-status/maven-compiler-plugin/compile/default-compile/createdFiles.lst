@@ -1,0 +1,7 @@
+com\mycompany\game\Monster.class
+com\mycompany\game\Inventory.class
+com\mycompany\game\GameManager.class
+com\mycompany\game\Item.class
+com\mycompany\game\Room.class
+com\mycompany\game\Node.class
+com\mycompany\game\Player.class
