@@ -30,7 +30,6 @@ public class Player {
         }
     }
 
-    // Getters
     public String getUsername() { return username; }
     public Inventory getInventory() { return inventory; }
     public int getHp() { return hp; }

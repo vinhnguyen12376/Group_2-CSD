@@ -5,19 +5,15 @@ public class GameManager {
     public static void main(String[] args) {
         System.out.println("=== BAT DAU KIEM TRA (UNIT TEST) ===");
 
-        // 1. Test trường hợp túi rỗng
         testRemoveFromEmpty();
 
-        // 2. Test trường hợp ID bị null
         testRemoveNullId();
 
-        // 3. Test trường hợp thêm Item bị null (MỚI)
         testAddNullItem();
 
-        // 4. Test chạy bình thường (Happy Path)
         testNormalFlow();
 
-        System.out.println("=== HOAN THANH TAT CA BAI TEST ===");
+        System.out.println(" HOAN THANH TAT CA BAI TEST ");
     }
 
     public static void testRemoveFromEmpty() {

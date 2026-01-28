@@ -22,7 +22,6 @@ public class Monster {
         this.dropItem = dropItem;
     }
 
-    // Getters
     public String getName() {
         return name;
     }

@@ -22,7 +22,6 @@ public class Item {
         this.power = power;
     }
 
-    // Getters
     public String getId() {
         return id;
     }
