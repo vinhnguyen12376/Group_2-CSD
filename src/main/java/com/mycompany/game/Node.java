@@ -7,9 +7,8 @@ public class Node {
 
     public Node(Item data) {
         if (data == null) {
-         
             this.data = new Item("UNKNOWN", "Empty Item", "None", 0);
-            System.out.println("Canh bao: Da tu dong xu ly mot Node bi null data!");
+            System.out.println("Canh bao: Du lieu khong xac dinh");
         } else {
             this.data = data;
         }
@@ -27,7 +26,7 @@ public class Node {
     }
 
     public Node getNext() {
-        return next;
+        return this.next;
     }
 
     public void setNext(Node next) {

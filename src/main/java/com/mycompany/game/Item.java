@@ -23,18 +23,18 @@ public class Item {
     }
 
     public String getId() {
-        return id;
+        return this.id;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getType() {
-        return type;
+        return this.type;
     }
 
     public int getPower() {
-        return power;
+        return this.power;
     }
 }

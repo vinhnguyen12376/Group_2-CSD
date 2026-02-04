@@ -9,6 +9,7 @@ package com.mycompany.game;
  * @author ACER
  */
 public class Player {
+
     private String username;
     private String classType;
     private int hp;
@@ -24,14 +25,33 @@ public class Player {
 
     private void initStats() {
         switch (classType.toLowerCase()) {
-            case "archer": this.hp = 80; this.atk = 25; break;
-            case "warrior": this.hp = 150; this.atk = 20; break;
-            case "mage": this.hp = 100; this.atk = 30; break;
+            case "archer":
+                this.hp = 80;
+                this.atk = 25;
+                break;
+            case "warrior":
+                this.hp = 150;
+                this.atk = 20;
+                break;
+            case "mage":
+                this.hp = 100;
+                this.atk = 30;
+                break;
         }
     }
+    public String getUsername() {
+        return this.username;
+    }
 
-    public String getUsername() { return username; }
-    public Inventory getInventory() { return inventory; }
-    public int getHp() { return hp; }
-    public void setHp(int hp) { this.hp = hp; }
+    public Inventory getInventory() {
+        return this.inventory;
+    }
+
+    public int getHp() {
+        return this.hp;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
 }

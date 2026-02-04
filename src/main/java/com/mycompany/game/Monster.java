@@ -23,11 +23,11 @@ public class Monster {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public int getHp() {
-        return hp;
+        return this.hp;
     }
 
     public void setHp(int hp) {
@@ -35,10 +35,10 @@ public class Monster {
     }
 
     public int getAtk() {
-        return atk;
+        return this.atk;
     }
 
     public Item getDropItem() {
-        return dropItem;
+        return this.dropItem;
     }
 }

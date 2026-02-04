@@ -15,7 +15,6 @@ public class Inventory {
         }
 
         Node newNode = new Node(item);
-        
         if (head == null) {
             this.head = newNode;
         } else {
@@ -29,38 +28,31 @@ public class Inventory {
 
     public boolean removeItem(String id) {
         if (id == null) {
-            return false; 
+            return false;
         }
         if (head == null) {
-            return false; 
+            return false;
         }
 
-      
         Item headItem = head.getData();
-        
         if (headItem != null && id.equals(headItem.getId())) {
-            head = head.getNext(); 
+            head = head.getNext();
             return true;
         }
 
         Node current = head;
-
         while (current.getNext() != null) {
             Node nextNode = current.getNext();
             Item nextItem = nextNode.getData();
-
             if (nextItem != null) {
                 String nextId = nextItem.getId();
-                
                 if (id.equals(nextId)) {
                     current.setNext(nextNode.getNext());
                     return true;
                 }
             }
-
             current = current.getNext();
         }
-
         return false;
     }
 }

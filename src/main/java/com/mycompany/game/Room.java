@@ -20,23 +20,22 @@ public class Room {
         this.id = id;
         this.description = description;
         this.monsters = monsters;
-        this.isLocked = (id != 1); 
+        this.isLocked = (id != 1);
         this.chestItem = chestItem;
     }
-
     public boolean isLocked() {
-        return isLocked;
+        return this.isLocked;
     }
 
     public void setLocked(boolean locked) {
-        isLocked = locked;
+        this.isLocked = locked;
     }
 
     public Monster[] getMonsters() {
-        return monsters;
+        return this.monsters;
     }
 
     public Item getChestItem() {
-        return chestItem;
+        return this.chestItem;
     }
 }
