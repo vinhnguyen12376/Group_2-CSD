@@ -12,7 +12,7 @@ public class Item {
 
     private String id;
     private String name;
-    private String type; 
+    private String type;
     private int power;
 
     public Item(String id, String name, String type, int power) {
@@ -36,5 +36,10 @@ public class Item {
 
     public int getPower() {
         return this.power;
+    }
+
+    @Override
+    public String toString() {
+        return name + " (ATK: " + power + ")";
     }
 }

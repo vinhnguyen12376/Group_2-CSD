@@ -1,6 +1,9 @@
-com\mycompany\game\Room.class
 com\mycompany\game\Monster.class
 com\mycompany\game\Inventory.class
-com\mycompany\game\Node.class
 com\mycompany\game\Item.class
+com\mycompany\game\TreeNode.class
+com\mycompany\game\MonsterBST.class
+com\mycompany\game\Room.class
+com\mycompany\game\Node.class
+com\mycompany\game\TestBST.class
 com\mycompany\game\Player.class
