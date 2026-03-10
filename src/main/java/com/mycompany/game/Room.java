@@ -15,13 +15,18 @@ public class Room {
     private Monster[] monsters; 
     private boolean isLocked;
     private Item chestItem; 
+    private boolean visited;
 
     public Room(int id, String description, Monster[] monsters, Item chestItem) {
         this.id = id;
         this.description = description;
         this.monsters = monsters;
-        this.isLocked = (id != 1);
+        this.isLocked = false;
         this.chestItem = chestItem;
+    }
+    
+    public int getId(){
+        return this.id;
     }
     public boolean isLocked() {
         return this.isLocked;
@@ -37,5 +42,13 @@ public class Room {
 
     public Item getChestItem() {
         return this.chestItem;
+    }
+    
+    public boolean isVisited() {
+        return this.visited;
+    }
+
+    public void setVisited(boolean visited) {
+        this.visited = visited;
     }
 }

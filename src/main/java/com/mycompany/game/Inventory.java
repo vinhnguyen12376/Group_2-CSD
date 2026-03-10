@@ -8,6 +8,10 @@ public class Inventory {
         this.head = null;
     }
 
+    public Node getHead() {
+        return this.head;
+    }
+
     public void addItem(Item item) {
         if (item == null) {
             System.out.println("Loi: Khong the them item null vao tui!");
