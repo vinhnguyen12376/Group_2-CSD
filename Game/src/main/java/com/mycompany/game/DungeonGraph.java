@@ -18,11 +18,17 @@ public class DungeonGraph {
         }
     }
 
-    // Thêm phòng vào đồ thị
     public void addRoom(Room room) {
         if (room != null && room.getId() <= numRooms) {
             rooms[room.getId()] = room;
         }
+    }
+
+    public Room getRoom(int id) {
+        if (id >= 1 && id <= numRooms) {
+            return rooms[id];
+        }
+        return null;
     }
 
     public void addEdge(int u, int v) {
@@ -34,7 +40,6 @@ public class DungeonGraph {
     }
 
     public boolean findExitBFS(int startId, int exitId) {
-
         for (int i = 1; i <= numRooms; i++) {
             if (rooms[i] != null) {
                 rooms[i].setVisited(false);
@@ -42,37 +47,27 @@ public class DungeonGraph {
         }
 
         int[] queue = new int[numRooms];
-        int front = 0;
-        int rear = 0;
+        int front = 0, rear = 0;
 
         queue[rear++] = startId;
         rooms[startId].setVisited(true);
 
         while (front < rear) {
-
             int current = queue[front++];
-
             if (current == exitId) {
                 return true;
             }
 
             Node node = adjacencyList[current].getHead();
-
             while (node != null) {
-
                 int neighbor = Integer.parseInt(node.getData().getId());
-
-                if (!rooms[neighbor].isVisited()) {
-
+                if (neighbor <= numRooms && rooms[neighbor] != null && !rooms[neighbor].isVisited()) {
                     rooms[neighbor].setVisited(true);
                     queue[rear++] = neighbor;
-
                 }
-
                 node = node.getNext();
             }
         }
-        System.out.println("Khong tim thay duong den loi thoat");
         return false;
     }
 
@@ -94,5 +89,13 @@ public class DungeonGraph {
         } catch (Exception e) {
             System.out.println("Loi doc file ban do: " + e.getMessage());
         }
+    }
+    
+    public Inventory[] getAdjacencyList() {
+        return adjacencyList;
+    }
+    
+    public int getNumRooms() {
+        return numRooms;
     }
 }
