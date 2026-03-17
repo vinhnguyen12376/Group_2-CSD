@@ -61,7 +61,7 @@ public class DungeonGraph {
             Node node = adjacencyList[current].getHead();
             while (node != null) {
                 int neighbor = Integer.parseInt(node.getData().getId());
-                if (neighbor <= numRooms && rooms[neighbor] != null && !rooms[neighbor].isVisited()) {
+                if (!rooms[neighbor].isVisited()) {
                     rooms[neighbor].setVisited(true);
                     queue[rear++] = neighbor;
                 }
@@ -90,11 +90,11 @@ public class DungeonGraph {
             System.out.println("Loi doc file ban do: " + e.getMessage());
         }
     }
-    
+
     public Inventory[] getAdjacencyList() {
         return adjacencyList;
     }
-    
+
     public int getNumRooms() {
         return numRooms;
     }

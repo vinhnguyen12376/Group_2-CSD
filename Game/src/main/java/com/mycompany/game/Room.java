@@ -12,9 +12,9 @@ public class Room {
 
     private int id;
     private String description;
-    private Monster[] monsters; 
+    private Monster[] monsters;
     private boolean isLocked;
-    private Item chestItem; 
+    private Item chestItem;
     private boolean visited;
 
     public Room(int id, String description, Monster[] monsters, Item chestItem) {
@@ -24,10 +24,11 @@ public class Room {
         this.isLocked = false;
         this.chestItem = chestItem;
     }
-    
-    public int getId(){
+
+    public int getId() {
         return this.id;
     }
+
     public boolean isLocked() {
         return this.isLocked;
     }
@@ -40,10 +41,14 @@ public class Room {
         return this.monsters;
     }
 
+    public String getDescription() {
+        return this.description;
+    }
+
     public Item getChestItem() {
         return this.chestItem;
     }
-    
+
     public boolean isVisited() {
         return this.visited;
     }

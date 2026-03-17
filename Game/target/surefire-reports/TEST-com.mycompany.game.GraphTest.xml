@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.game.GraphTest" time="0.045" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.game.GraphTest" time="0.03" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,8 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ACER\AppData\Local\Temp\surefire6800346175398431578\surefirebooter-20260317125341765_3.jar C:\Users\ACER\AppData\Local\Temp\surefire6800346175398431578 2026-03-17T12-53-41_466-jvmRun1 surefire-20260317125341765_1tmp surefire_0-20260317125341765_2tmp"/>
-    <property name="test" value="com.mycompany.game.GraphTest"/>
+    <property name="sun.java.command" value="C:\Users\ACER\AppData\Local\Temp\surefire2686330735507495085\surefirebooter-20260317153431022_3.jar C:\Users\ACER\AppData\Local\Temp\surefire2686330735507495085 2026-03-17T15-34-30_615-jvmRun1 surefire-20260317153431022_1tmp surefire_0-20260317153431022_2tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\ACER\Documents\NetBeansProjects\Game\target\test-classes;C:\Users\ACER\Documents\NetBeansProjects\Game\target\classes;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\ACER\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\ACER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\ACER\.m2\repository\io\javalin\javalin\4.6.8\javalin-4.6.8.jar;C:\Users\ACER\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-server\9.4.51.v20230217\jetty-server-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-http\9.4.51.v20230217\jetty-http-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-util\9.4.51.v20230217\jetty-util-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-io\9.4.51.v20230217\jetty-io-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.51.v20230217\jetty-webapp-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.51.v20230217\jetty-xml-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.51.v20230217\jetty-servlet-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-security\9.4.51.v20230217\jetty-security-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.51.v20230217\jetty-util-ajax-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.51.v20230217\websocket-server-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.51.v20230217\websocket-common-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.51.v20230217\websocket-api-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.51.v20230217\websocket-client-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\jetty-client\9.4.51.v20230217\jetty-client-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.51.v20230217\websocket-servlet-9.4.51.v20230217.jar;C:\Users\ACER\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.32\kotlin-stdlib-jdk8-1.5.32.jar;C:\Users\ACER\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.32\kotlin-stdlib-1.5.32.jar;C:\Users\ACER\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ACER\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.32\kotlin-stdlib-common-1.5.32.jar;C:\Users\ACER\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.32\kotlin-stdlib-jdk7-1.5.32.jar;C:\Users\ACER\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ACER"/>
@@ -32,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ACER\AppData\Local\Temp\surefire6800346175398431578\surefirebooter-20260317125341765_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ACER\AppData\Local\Temp\surefire2686330735507495085\surefirebooter-20260317153431022_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,19 +61,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testBFSFindExit" classname="com.mycompany.game.GraphTest" time="0.019">
+  <testcase name="testBFSFindExit" classname="com.mycompany.game.GraphTest" time="0.023">
     <system-out><![CDATA[Test BFS tim duong tu 7 -> 2
+Nap ban do thanh cong!
 Ket qua tim duong: true
 ]]></system-out>
   </testcase>
-  <testcase name="testBFSNoPath" classname="com.mycompany.game.GraphTest" time="0.001">
+  <testcase name="testBFSNoPath" classname="com.mycompany.game.GraphTest" time="0.003">
     <system-out><![CDATA[Test BFS khong co duong
 Ket qua tim duong: false
 ]]></system-out>
   </testcase>
-  <testcase name="testLoadMapFromFile" classname="com.mycompany.game.GraphTest" time="0.009">
+  <testcase name="testLoadMapFromFile" classname="com.mycompany.game.GraphTest" time="0.002">
     <system-out><![CDATA[Test doc map.txt
-Nap ban do thanh cong tu file: map.txt
+Nap ban do thanh cong!
 Ket qua BFS sau khi doc file: true
 ]]></system-out>
   </testcase>
